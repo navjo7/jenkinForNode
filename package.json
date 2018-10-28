@@ -1,0 +1,24 @@
+{
+  "name": "firstjenkins",
+  "version": "1.0.0",
+  "description": "first one using jenkins",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "jenkins",
+    "mocha",
+    "node",
+    "js",
+    "express",
+    "ci",
+    "cd"
+  ],
+  "author": "Navjot Singh",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
