@@ -7,3 +7,10 @@ it("should sum two numbers", () => {
     //     throw new Error(`incorrect result, expected: 3 but got ${result}`)
     // }
 })
+
+it("testing async function result",(done)=>{
+    utils.asyncAdd(1,2,(sum)=>{
+        expect(sum).toBe(3)
+        done()
+    })
+})
